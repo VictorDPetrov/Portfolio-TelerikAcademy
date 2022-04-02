@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper" id="explorePage">
         <header>
             <h2 class="logo">VICTOR <span>PETROV</span></h2>
             <nav>
@@ -26,36 +26,20 @@
 
         <h2>This is the Explore Page. You can find random stuff in here :)</h2>
 
-        <form>
-        Kilometers per Hour to Knots: <input type="number" id="transform" value="0">
-        <input type="button" value="Calculate" onclick="convert()">
-
-        <br>
-        Result: 
-        <p id="convertedKts">
-
-        </p>
-    </form>
-
-
-
     <form>
         Km/h to Knots: <input type="number" id="numberInput" value="0">
-        <input type="button" value="Calculate" onclick="kmkts()">
+        <input type="button" value="Calculate" onclick="kmkts()" id="calculateButton">
         <br>
         <br>
         <br>
-        Резултат в Метри:
+
+        Knots:
         <p id="resultOutput">
-            kts
+
         </p>
     </form>
-    
 
-
-
-
-
+    <footer style="text-align: center;" id="copyright">&copy; Copyright 2022 Victor Petrov</footer>
     </div>
 
 </body>
