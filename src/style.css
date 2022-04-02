@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 body {
     font-family: "Montserrat", sans-serif;
     color: white;
+    background-color: #24252A;
+    margin: 0;
 }
 
 #mainPage {
@@ -14,18 +16,32 @@ body {
     text-align: center;
 }
 
+#aboutPage {
+    text-align: center;
+}
+
+#contactPage {
+    text-align: center;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
-
 }
-
-
-
-
-
+  .wrapper {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+      background-size: 600% 100%;
+      animation: gradient 16s linear infinite;
+      animation-direction: alternate;
+  }
+  @keyframes gradient {
+      0% {background-position: 0%}
+      100% {background-position: 100%}
+  }
 
 /* Navigation */
 .nav__links li, a, button {
@@ -105,9 +121,14 @@ button:hover {
     color: white;
 }
 
+#welcomeToPortfolio {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* 
 p {
     font-size: 30px;
-}
+} */
 
 #schoolSite {
     text-decoration: none;
@@ -127,6 +148,28 @@ p {
 
 #workTxtAbout {
     text-align: center;
+}
+
+
+#aboutTxt {
+    font-size: 40px;
+    height: 33vh;
+}
+
+#aboutMe {
+    font-size: 30px;
+}
+
+#aboutMePicture {
+    width: 500px;
+    height: auto; 
+    float: right;
+    margin-right: 15px;
+}
+
+#contactTxt {
+    font-size: 40px;
+    height: 33vh;
 }
 
 #fourBit /* Used in Main Page & Work Page */ {
