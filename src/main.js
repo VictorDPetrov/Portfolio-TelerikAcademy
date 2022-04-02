@@ -5,6 +5,6 @@ function kmkts() {
         document.getElementById("resultOutput").innerHTML = result;
     }
     else {
-        alert("Ma che cazzo.");
+        alert("Please enter valid number!");
     }
 }
