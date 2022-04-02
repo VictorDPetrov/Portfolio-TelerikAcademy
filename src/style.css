@@ -4,7 +4,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: white;
-    background-color: #24252A;
+    /* background-color: #24252A; */
     margin: 0;
 }
 
@@ -34,9 +34,10 @@ body {
       height: 100%;
       position: absolute;
       /* background: linear-gradient(45deg, #FF3706, #24AADB , #27DBB1); */
-      background: linear-gradient(45deg, #79bb9a, #94c2f0, #fac9c0);
+      /* background: linear-gradient(36deg, #79bb9a, #94c2f0, #faded9); */
+      background: linear-gradient(35deg, #e0dcce, #c8d9e7, #bad8f3, #aad6ff);
       background-size: 600% 100%;
-      animation: gradient 10s linear infinite;
+      animation: gradient 7s linear infinite;
       animation-direction: alternate;
   }
   @keyframes gradient {
@@ -49,7 +50,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #43646f;
     text-decoration: none;
 }
 
@@ -64,7 +65,7 @@ header {
     cursor: default;
     margin-right: auto;
     width: 500px;
-    color: #edf0f1;
+    color: #43646f;
 }
 
 .logo span {
@@ -90,7 +91,7 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #0088a9;
+    color: #0000005d;
 }
 
 button {
