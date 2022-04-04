@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
-body {
+
+body, html {
     font-family: "Montserrat", sans-serif;
     color: #4c5e6f;
     /* background-color: #24252A; */
     margin: 0;
+    height: 100%;
 }
 
 #mainPage {
@@ -33,6 +35,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
   .wrapper {
       width: 100%;
       height: 100%;
@@ -156,6 +159,7 @@ button:hover {
 }
 
 #workTxt {
+    font-size: 40px;
     height: 20vh;
 }
 

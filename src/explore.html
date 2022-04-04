@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="wrapper" id="explorePage">
+    <div class="wrapper" >
         <header>
             <h2 class="logo">VICTOR <span>PETROV</span></h2>
             <nav>
@@ -24,22 +24,24 @@
             <a class="cta" href="contact.html"><button>Contact</button></a>
         </header>
 
-        <h2>This is the Explore Page. You can find random stuff in here :)</h2>
+        <div id="explorePage">
+            <h2>This is the Explore Page. You can find random stuff in here :)</h2>
 
-    <form>
-        Km/h to Knots: <input type="number" id="numberInput" value="0">
-        <input type="button" value="Calculate" onclick="kmkts()" id="calculateButton">
-        <br>
-        <br>
-        <br>
+        <form>
+            Km/h to Knots: <input type="number" id="numberInput" value="0">
+            <input type="button" value="Calculate" onclick="kmkts()" id="calculateButton">
+            <br>
+            <br>
+            <br>
 
-        Knots:
-        <p id="resultOutput">
+            Knots:
+            <p id="resultOutput">
 
-        </p>
-    </form>
+            </p>
+        </form>
 
-    <footer style="text-align: center;" id="copyright">&copy; Copyright 2022 Victor Petrov</footer>
+        <footer style="text-align: center;" id="copyright">&copy; Copyright 2022 Victor Petrov</footer>
+        </div>
     </div>
 
 </body>
