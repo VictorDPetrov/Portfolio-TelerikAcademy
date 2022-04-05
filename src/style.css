@@ -37,25 +37,23 @@ body, html {
     padding: 0;
 }
 
-  .wrapper {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      /* background: linear-gradient(45deg, #FF3706, #24AADB , #27DBB1); */
-      /* background: linear-gradient(36deg, #79bb9a, #94c2f0, #faded9); */
-      background: linear-gradient(35deg, #e0dcce00, #c8d9e765, #bad8f375, #aad6ff6b);
-      background-size: 600% 100%;
-      animation: gradient 7s linear infinite;
-      animation-direction: alternate;
-      display: block;
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(35deg, #e0dcce00, #c8d9e765, #bad8f375, #aad6ff6b);
+    background-size: 600% 100%;
+    animation: gradient 7s linear infinite;
+    animation-direction: alternate;
+    display: block;
     overflow: auto;
-  }
+}
 
 
-  @keyframes gradient {
-      0% {background-position: 0%}
-      100% {background-position: 100%}
-  }
+@keyframes gradient {
+    0% { background-position: 0% }
+    100% { background-position: 100% }
+}
 
 /* Navigation */
 .nav__links li, a, button {
@@ -253,10 +251,8 @@ button {
 }
 
 #copyright {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
-    height: 40px;
     background-color: transparent;
 }
 
