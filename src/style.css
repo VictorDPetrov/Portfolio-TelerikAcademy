@@ -16,6 +16,7 @@ body, html {
 
 #workPage {
     text-align: center;
+
 }
 
 #aboutPage {
@@ -47,6 +48,8 @@ body, html {
       animation: gradient 7s linear infinite;
       animation-direction: alternate;
   }
+
+
   @keyframes gradient {
       0% {background-position: 0%}
       100% {background-position: 100%}
@@ -112,12 +115,15 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.cta button:hover {
     background-color: #4c5e6f;
     color: white;
 }
 
-
+#schoolButton button:hover {
+    background-color: #4c5e6f;
+    color: white;
+}
 
 #helloTxt {
     font-size: 50px;
@@ -149,6 +155,14 @@ button:hover {
     color: #4c5e6f;
 }
 
+#inSchool {
+    font-size: 60px;
+    height: 5vh;
+}
+
+#aboutSchool {
+}
+
 #mainTxtAbout {
     text-align: center;
     text-transform: uppercase;
@@ -160,7 +174,7 @@ button:hover {
 
 #workTxt {
     font-size: 40px;
-    height: 20vh;
+    height: 7vh;
 }
 
 #aboutTxt {
@@ -190,7 +204,15 @@ button:hover {
     font-size: 30px;
 }
 
+#fourBitPhotos {
+    margin-right: 100px;
+}
+
 #roboticsTitle {
+    font-size: 40px;
+}
+
+#personalTitle {
     font-size: 40px;
 }
 
@@ -214,6 +236,19 @@ button:hover {
     font-size: 30px;
 }
 
+#workThisWebsite, #workPomodoro, #workCSharp {
+    text-decoration: underline;
+}
+
+
+#personal {
+    font-size: 60px;
+    height: 3vh;
+}
+
+#personalWork {
+    font-size: 30px;
+}
 
 #copyright {
     position: fixed;
@@ -246,6 +281,15 @@ button:hover {
     border: none;
 }
 
+#eightGrade {
+    width: auto;
+    height: 500px;
+}
+
+#ninthGrade {
+    width: auto;
+    height: 500px;
+}
 
 div {
     display: block;
