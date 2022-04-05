@@ -8,3 +8,5 @@ function kmkts() {
         alert("Please enter valid number!");
     }
 }
+
+document.getElementsByClassName("wrapper").style.height = "200px";
