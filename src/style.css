@@ -10,6 +10,14 @@ body, html {
     height: 100%;
 }
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 #mainPage {
     text-align: center;
 }
@@ -31,12 +39,7 @@ body, html {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+/* First Div */
 .wrapper {
     width: 100%;
     height: 100%;
