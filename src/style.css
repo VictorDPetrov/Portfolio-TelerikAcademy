@@ -302,3 +302,16 @@ li {
     display: list-item;
     list-style-position: inside;
 }
+
+.box {
+    width:600px;
+    text-align:center; /* center align the text inside the box */
+    margin:auto; /* center this .box element, assuming it is block-level */
+    position:relative;
+    text-align:center;
+}
+img {
+    margin: auto;
+    border: 1px groove;
+    border-radius: 2%;
+}
