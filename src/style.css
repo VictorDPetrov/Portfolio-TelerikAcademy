@@ -176,12 +176,12 @@ button {
 }
 
 #workTxt {
-    font-size: 40px;
+    font-size: 50px;
     height: 7vh;
 }
 
 #aboutTxt {
-    font-size: 40px;
+    font-size: 50px;
     height: 33vh;
 }
 
@@ -197,7 +197,7 @@ button {
 }
 
 #contactTxt {
-    font-size: 40px;
+    font-size: 50px;
     height: 33vh;
 }
 
@@ -314,4 +314,13 @@ img {
     margin: auto;
     border: 1px groove;
     border-radius: 2%;
+}
+
+.onHover {
+    color: rgba(121, 182, 214, 0.782);
+    transition: all 0.5s ease 0s;
+}
+
+.onHover:hover {
+    color: #4c5e6f;
 }
