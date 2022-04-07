@@ -336,3 +336,22 @@ img {
 .workFloat:first-child {
     margin-right: 50px;
 }
+
+.container {
+    display: inline-block;  
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid #4c5e6f;
+    white-space: nowrap;
+    animation: typing 3s forwards;
+    font-size: 3rem;
+    width: 0;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
