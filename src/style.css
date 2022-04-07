@@ -324,3 +324,15 @@ img {
 .onHover:hover {
     color: #4c5e6f;
 }
+
+.floatContainer {
+    display: flex;
+}
+
+.workFloat {
+    flex: 1;
+}
+
+.workFloat:first-child {
+    margin-right: 50px;
+}
